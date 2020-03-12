@@ -7,6 +7,15 @@ and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## Breaking change
+
+- Removed the deprecated dependency `@babel/polyfill` and move to `core-js@^3.0.0`.
+- Removed the `@shopify/polyfill/url` polyfill since it's automatically provided with `core-js`.
+
+**Note**: This new version need at least `sewing-kit@^0.120.0`.
+
+## [1.1.7] - 2020-01-31
+
 - Update `package.json` published `files` patterns. [#1233](https://github.com/Shopify/quilt/pull/1233)
 
 ## [1.1.5] - 2019-11-25
